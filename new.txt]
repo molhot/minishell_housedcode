@@ -1,0 +1,198 @@
+env_ready.c: OK!
+main.c: OK!
+minishell.h: Error!
+Error: MISALIGNED_VAR_DECL  (line:  40, col:   1):	Misaligned variable declaration
+Notice: GLOBAL_VAR_DETECTED  (line: 102, col:   1):	Global variable present in file. Make sure it is a reasonable choice.
+Error: MISALIGNED_VAR_DECL  (line: 102, col:  17):	Misaligned variable declaration
+Error: NO_ARGS_VOID         (line: 172, col:  28):	Empty function argument requires void
+builtin_command/builtin_cd.c: OK!
+builtin_command/builtin_ch.c: OK!
+builtin_command/builtin_echo.c: OK!
+builtin_command/builtin_env.c: OK!
+builtin_command/builtin_exit.c: OK!
+builtin_command/builtin_export.c: OK!
+builtin_command/builtin_pwd.c: OK!
+builtin_command/builtin_unset.c: OK!
+builtin_command/command_to_array.c: OK!
+exec_func/exec_absolutepath.c: OK!
+exec_func/exec_argsready.c: OK!
+exec_func/exec_builtin.c: OK!
+exec_func/exec_func.c: Error!
+Error: CONSECUTIVE_NEWLINES (line:  13, col:   1):	Consecutive newlines
+Error: LINE_TOO_LONG        (line:  98, col:  73):	line too long
+Error: WRONG_SCOPE_COMMENT  (line:  98, col:  73):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  98, col:  73):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line:  98, col: 102):	line too long
+Error: LINE_TOO_LONG        (line: 101, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 103, col:  88):	line too long
+Error: LINE_TOO_LONG        (line: 109, col:  84):	line too long
+Error: TOO_MANY_FUNCS       (line: 116, col:   1):	Too many functions in file
+Error: TOO_MANY_FUNCS       (line: 138, col:   1):	Too many functions in file
+exec_func/pipe_func.c: OK!
+exec_func/redirect_file.c: Error!
+Error: RETURN_PARENTHESIS   (line:  78, col:  20):	Return value must be in parenthesis
+Error: TOO_MANY_LINES       (line:  94, col:   1):	Function has more than 25 lines
+expand/expand.c: Error!
+Error: SPACE_REPLACE_TAB    (line:  55, col:  12):	Found space when expecting tab
+Error: WRONG_SCOPE_COMMENT  (line:  80, col:  13):	Comment is invalid in this scope
+expand/expand_appendchar.c: OK!
+expand/expand_doller.c: OK!
+expand/expand_redirection.c: Error!
+Error: TOO_FEW_TAB          (line:  59, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  59, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  69, col:   1):	Missing tabs for indent level
+Error: SPACE_EMPTY_LINE     (line:  69, col:   5):	Space on empty line
+Error: CONSECUTIVE_SPC      (line:  74, col:   5):	Two or more consecutives spaces
+Error: SPACE_BEFORE_FUNC    (line:  74, col:   8):	space before function name
+Error: TOO_FEW_TAB          (line:  76, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  76, col:   5):	Found space when expecting tab
+Error: CONSECUTIVE_SPC      (line:  76, col:   9):	Two or more consecutives spaces
+Error: SPACE_REPLACE_TAB    (line:  76, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  77, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  77, col:   5):	Found space when expecting tab
+Error: CONSECUTIVE_SPC      (line:  77, col:   9):	Two or more consecutives spaces
+Error: SPACE_REPLACE_TAB    (line:  77, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  79, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  79, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  80, col:   1):	Missing tabs for indent level
+Error: SPACE_EMPTY_LINE     (line:  80, col:   5):	Space on empty line
+Error: SPACE_REPLACE_TAB    (line:  81, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  82, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  82, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  83, col:   1):	Missing tabs for indent level
+Error: SPACE_EMPTY_LINE     (line:  83, col:   9):	Space on empty line
+Error: TOO_FEW_TAB          (line:  84, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  84, col:  13):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  85, col:   1):	Missing tabs for indent level
+Error: SPACE_EMPTY_LINE     (line:  85, col:  13):	Space on empty line
+Error: SPACE_REPLACE_TAB    (line:  86, col:  17):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  87, col:  17):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  88, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  88, col:  17):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  89, col:  21):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  90, col:  17):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  91, col:   1):	Missing tabs for indent level
+Error: SPACE_EMPTY_LINE     (line:  91, col:  13):	Space on empty line
+Error: TOO_FEW_TAB          (line:  92, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  92, col:  13):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  93, col:  17):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  94, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  94, col:  13):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  95, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  95, col:  17):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  96, col:   1):	Missing tabs for indent level
+Error: SPACE_EMPTY_LINE     (line:  96, col:  13):	Space on empty line
+Error: SPACE_REPLACE_TAB    (line:  97, col:  17):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  98, col:   1):	Missing tabs for indent level
+Error: SPACE_EMPTY_LINE     (line:  98, col:   9):	Space on empty line
+Error: SPACE_REPLACE_TAB    (line:  99, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line: 100, col:   1):	Missing tabs for indent level
+Error: SPACE_EMPTY_LINE     (line: 100, col:   5):	Space on empty line
+Error: LINE_TOO_LONG        (line: 112, col:  85):	line too long
+Error: BRACE_SHOULD_EOL     (line: 116, col:   1):	Expected newline after brace
+expand/expand_simplecommand.c: Error!
+Error: TOO_MANY_FUNCS       (line:  96, col:   1):	Too many functions in file
+Error: TOO_MANY_FUNCS       (line: 105, col:   1):	Too many functions in file
+Error: BRACE_SHOULD_EOL     (line: 130, col:   1):	Expected newline after brace
+expand/expand_specialchar.c: Error!
+Error: BRACE_SHOULD_EOL     (line:  32, col:   1):	Expected newline after brace
+libft/ft_atoi.c: OK!
+libft/ft_bzero.c: OK!
+libft/ft_calloc.c: OK!
+libft/ft_isalnum.c: OK!
+libft/ft_isalpha.c: OK!
+libft/ft_isascii.c: OK!
+libft/ft_isdigit.c: OK!
+libft/ft_isprint.c: OK!
+libft/ft_itoa.c: OK!
+libft/ft_lstadd_back.c: OK!
+libft/ft_lstadd_front.c: OK!
+libft/ft_lstclear.c: OK!
+libft/ft_lstdelone.c: OK!
+libft/ft_lstiter.c: OK!
+libft/ft_lstlast.c: OK!
+libft/ft_lstmap.c: OK!
+libft/ft_lstnew.c: OK!
+libft/ft_lstsize.c: OK!
+libft/ft_memchr.c: OK!
+libft/ft_memcmp.c: OK!
+libft/ft_memcpy.c: OK!
+libft/ft_memmove.c: OK!
+libft/ft_memset.c: OK!
+libft/ft_putchar_fd.c: OK!
+libft/ft_putendl_fd.c: OK!
+libft/ft_putnbr_fd.c: OK!
+libft/ft_putstr_fd.c: OK!
+libft/ft_split.c: OK!
+libft/ft_strchr.c: OK!
+libft/ft_strcmp.c: OK!
+libft/ft_strdup.c: OK!
+libft/ft_striteri.c: OK!
+libft/ft_strjoin.c: OK!
+libft/ft_strlcat.c: OK!
+libft/ft_strlcpy.c: OK!
+libft/ft_strlen.c: OK!
+libft/ft_strmapi.c: OK!
+libft/ft_strncmp.c: OK!
+libft/ft_strnstr.c: OK!
+libft/ft_strrchr.c: OK!
+libft/ft_strtrim.c: OK!
+libft/ft_substr.c: OK!
+libft/ft_tolower.c: OK!
+libft/ft_toupper.c: OK!
+libft/libft.h: OK!
+map/map.c: Error!
+Error: TOO_MANY_FUNCS       (line: 124, col:   1):	Too many functions in file
+parser/parse_redirect.c: OK!
+parser/parse_word.c: OK!
+parser/parser.c: Error!
+Error: TOO_MANY_LINES       (line:  58, col:   1):	Function has more than 25 lines
+parser/parser_utils.c: Error!
+Error: WRONG_SCOPE_COMMENT  (line:  29, col:   5):	Comment is invalid in this scope
+signalhandler/sigint_handler.c: OK!
+tokenizer/create_token.c: OK!
+tokenizer/error.c: OK!
+tokenizer/make_op_token.c: OK!
+tokenizer/make_redirect_token.c: OK!
+tokenizer/make_wd_token.c: OK!
+tokenizer/tokenizer.c: OK!
+utils/bzero.c: OK!
+utils/calloc.c: OK!
+utils/memcmp.c: OK!
+utils/putchar_fd.c: OK!
+utils/putstr_fd.c: OK!
+utils/split.c: OK!
+utils/strchr.c: OK!
+utils/strcmp.c: Error!
+Error: SPACE_BEFORE_FUNC    (line:  15, col:   4):	space before function name
+Error: TOO_FEW_TAB          (line:  17, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  17, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  18, col:   1):	Missing tabs for indent level
+Error: SPACE_EMPTY_LINE     (line:  18, col:   5):	Space on empty line
+Error: TOO_FEW_TAB          (line:  19, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  19, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  20, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  20, col:  13):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  21, col:   9):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  22, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  23, col:   1):	Missing tabs for indent level
+Error: SPACE_EMPTY_LINE     (line:  23, col:   5):	Space on empty line
+Error: TOO_FEW_TAB          (line:  24, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  24, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  25, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  25, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  26, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  26, col:   5):	Found space when expecting tab
+Error: BRACE_SHOULD_EOL     (line:  27, col:   1):	Expected newline after brace
+utils/strdup.c: OK!
+utils/strjoin.c: OK!
+utils/strlcat.c: OK!
+utils/strlcpy.c: OK!
+utils/strlen.c: OK!
+utils/strncmp.c: OK!
+utils/strtrim.c: OK!
+word_rolechecker/is_blank.c: OK!
+word_rolechecker/is_metacharacter.c: OK!
+word_rolechecker/is_operator.c: OK!
+word_rolechecker/is_redirect.c: OK!
+word_rolechecker/is_word.c: OK!
